@@ -1,0 +1,20 @@
+路标（Landmark）:图像中选取比较有代表性的点。视觉slam中称为特征点
+
+关键点（Key-point）：特征点在图像里的位置，有些特征点还具有朝向、大小等信息
+描述子（Descriptor）：是一个向量，按照某种人为设计的方式，描述了该关键点周围像素的信息
+
+ORB（Oriented FAST and Rotated BRIEF）特征：
+关键点称为“Oriented FAST”：是一种改进的 FAST 角点
+描述子称为 BRIEF（Binary Robust Independent Elementary Feature）
+
+
+估计相机运动
+对极约束
+基础矩阵（Fundamental Matrix）
+本质矩阵（Essential Matrix）
+单应矩阵（Homography）：描述处于共同平面上的一些点在两张图像之间的变换关系。
+
+三角测量：特征点的空间位置
+
+直接线性变换（Direct Linear Transform，DLT）
+
